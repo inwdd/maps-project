@@ -162,7 +162,15 @@
             width: 69px;
         }
 
-        
+        .leaflet-control-layers.leaflet-control-layers-expanded .leaflet-control-layers-list {
+		    display: flex;
+		    flex-direction: column;
+		}
+
+		.leaflet-control-layers.leaflet-control-layers-expanded .leaflet-control-layers-list .leaflet-control-layers-overlays {
+			order: 3;
+		}
+
     </style>
 
 
@@ -203,7 +211,6 @@
         })();
         </script>
 
-    <div id="mapid"></div>
     <script src="main.js"></script>
 
 

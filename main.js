@@ -34,51 +34,6 @@ googlehybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}'
 
 
 
-// Adding Icon
-var circleIcon = L.icon (
-    {   className: 'icon1',
-        iconUrl : 'lib/icon_circle2.png',
-        shadowUrl: 'lib/icon_circle.png',
-        iconSize : [20, 20],
-        shadowSize: [20, 20],
-        iconAnchor : [10, 9.5],
-        popupAnchor : [0, 42]
-    }
-)
-
-var MCIcon = L.icon (
-    {
-        iconUrl : 'lib/icon_MC2.png',
-        shadowUrl: 'lib/icon_MC.png',
-        iconSize : [20, 20],
-        shadowSize: [20, 20],
-        iconAnchor : [10, 9.5],
-        popupAnchor : [0, 42]
-    }
-)
-
-var RCIcon = L.icon (
-    {
-        iconUrl : 'lib/icon_RC2.png',
-        shadowUrl: 'lib/icon_RC.png',
-        iconSize : [20, 20],
-        shadowSize: [20, 20],
-        iconAnchor : [10, 9.5],
-        popupAnchor : [0, 42]
-    }
-)
-
-var StarIcon = L.icon (
-    {
-        iconUrl : 'lib/icon_star2.png',
-        shadowUrl: 'lib/icon_star.png',
-        iconSize : [20, 20],
-        shadowSize: [20, 20],
-        iconAnchor : [10, 9.5],
-        popupAnchor : [0, 42]
-    }
-)
-
 
 
 
@@ -89,31 +44,31 @@ var StarIcon = L.icon (
 //var marker1 = L.marker([15.305277, 59.476223], {icon: circleIcon, draggable: true}).addTo(mymap).bindTooltip('Label').openTooltip();
 //    marker2 = L.marker([13.997047, 59.476223], {icon: circleIcon, draggable: true}).bindPopup('<img height="50px" src ="lib/zhamdayet.png">', {autoClose: false, closeOnClick: false,}).addTo(mymap);
 
-var gadarief = L.marker([14.044225, 35.388162], {icon: MCIcon}).bindPopup('<img height="50px" src="lib/zgadarief.png">', {autoClose: false, closeOnClick: false,}).bindTooltip('<img height="50px" src="lib/zgadarief.png">').addTo(mymap);
+/*var gadarief = L.marker([14.044225, 35.388162], {icon: MCIcon}).bindPopup('<img height="50px" src="lib/zgadarief.png">', {autoClose: false, closeOnClick: false,}).bindTooltip('<img height="50px" src="lib/zgadarief.png">').addTo(mymap);
     hamdayet = L.marker([15.455983, 36.413976], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zhamdayet.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zhamdayet.png">').addTo(mymap);
     galabat = L.marker([12.960314, 36.149322], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zgalabat.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zgalabat.png">').addTo(mymap);
     jodah = L.marker([12.526098, 33.020113], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zjodah.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zjodah.png">').addTo(mymap);
     whitenile = L.marker([14.165762, 32.244053], {icon: RCIcon}).bindPopup('<img height="50px" src="lib/zwhitenile.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zwhitenile.png">').addTo(mymap);
 
 var sudan = L.layerGroup([gadarief, hamdayet, galabat, jodah, whitenile]);
+*/
 
-
-var renk = L.marker([11.835407, 32.797374], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zrenk.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zrenk.png">').addTo(mymap);
+/*var renk = L.marker([11.835407, 32.797374], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zrenk.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zrenk.png">').addTo(mymap);
     maban = L.marker([10.053668, 33.040016], {icon: RCIcon}).bindPopup('<img height="50px" src="lib/zmaban.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zmaban.png">').addTo(mymap);
     juba = L.marker([4.851911, 31.598537], {icon: StarIcon}).bindPopup('<img height="50px" src="lib/zjuba.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zjuba.png">').addTo(mymap);
     nadapal = L.marker([4.405186, 34.283834], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/znadapal.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/znadapal.png">').addTo(mymap);
     nimule = L.marker([3.586098, 32.068238], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/znimule.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/znimule.png">').addTo(mymap);
 
-var southsudan = L.layerGroup([renk, maban, juba, nadapal, nimule]);
+var southsudan = L.layerGroup([renk, maban, juba, nadapal, nimule]);*/
 
-var elegu = L.marker([3.563650, 32.071642], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zelegu.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zelegu.png">').addTo(mymap);
+/*var elegu = L.marker([3.563650, 32.071642], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zelegu.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zelegu.png">').addTo(mymap);
     adjumani = L.marker([3.375915, 31.790426], {icon: RCIcon}).bindPopup('<img height="50px" src="lib/zadjumani.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zadjumani.png">').addTo(mymap);
     malaba = L.marker([0.641313, 34.263055], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zmalaba.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zmalaba.png">').addTo(mymap);
     busia = L.marker([0.468229, 34.090577], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zbusia.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zbusia.png">').addTo(mymap);
 
 var uganda = L.layerGroup([elegu, adjumani, malaba, busia]);
-
-var turkana = L.marker([3.446768, 35.639530], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zturkana.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zturkana.png">').addTo(mymap);
+*/
+/*var turkana = L.marker([3.446768, 35.639530], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zturkana.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zturkana.png">').addTo(mymap);
     marsabit = L.marker([2.339366, 37.991614], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zmarsabit.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zmarsabit.png">').addTo(mymap);
     garissa = L.marker([-0.455128, 39.641166], {icon: RCIcon}).bindPopup('<img height="50px" src="lib/zgarissa.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zgarissa.png">').addTo(mymap);
     mandera = L.marker([3.939194, 41.857806], {icon: circleIcon}).bindPopup('<img height="50px" src="lib/zmandera.png">', {autoClose: false, closeOnClick: false}).bindTooltip('<img height="50px" src="lib/zmandera.png">').addTo(mymap);
@@ -549,7 +504,7 @@ var TMEA = L.layerGroup([busiaTMEA, djiboutiportTMEA, eleguTMEA, galabatTMEA, ga
 var allpart = L.layerGroup([UNOPS, UNICEF,IOM, TMEA, ])
 
 var alll = L.layerGroup([polygon, gadarief, hamdayet, galabat, jodah, whitenile, metema, semera, 
-    obock, obock2, djiboutiport, dora, galafi, alisabieh, hawli, moyale, togwajale, wajale, bosasso, renk, 
+    obock, obock2, djiboutiport, dora, galafi, alisabieh, hawli, moyale, togwajale, wajale, bosasso, renk,
     gambela, maban, juba, belethawa, baidoa, mogadishu, busia, malaba, adjumani, nimule, nadapal, turkana, 
     marsabit, mandera, elegu, diif2, daadab, dhoblei, garissa, diif, 
     
@@ -596,7 +551,7 @@ var alll = L.layerGroup([polygon, gadarief, hamdayet, galabat, jodah, whitenile,
 
 ]).addTo(mymap);
 
-
+*/
 
 
 // Adding Empty Circle (placeholder)
@@ -614,9 +569,16 @@ var emptycircle = L.circle(
 //var X = L.marker([], {icon: circleIcon}).bindPopup('This is X').addTo(mymap);
 
 
+// Adding Polygon
+var polygon = L.polygon([[20.000066, 24.000162],[8.706755, 35.529665],[7.325975, 43.020540],[1.678135, 38.478610],], {
+    color: 'white',
+    opacity: 0.5,
+    fillColor: 'blue',
+    fillOpacity: 0.15,
+    dashArray: '5, 3, 2',
+});
 
 //Adding Polyygon
-
 var polyygonData = L.geoJSON(polyygon, 
         {
         color: 'white',
@@ -627,7 +589,7 @@ var polyygonData = L.geoJSON(polyygon,
     });
 
 // Creating Layer Controls
-
+/*
 var overlays = {
     "<b>Show All/Clear All":alll,
     "<img src='lib/cSU.png'/> Sudan": sudan,
@@ -657,7 +619,108 @@ var overlays = {
     "<b>Polygon": polygon,
     "<b>Polyygon": polyygonData,
     
-};
+};*/
+
+
+var _marker_group = L.layerGroup([]).addTo( mymap );
+
+function draw_pins() {
+	_marker_group.clearLayers();
+	if ( projectSites.length > 0 ) {
+		var _countries = [];
+		if ( document.querySelectorAll( '[name="countries[]"]:checked' ).length > 0 ) {
+			document.querySelectorAll( '[name="countries[]"]:checked' ).forEach( function( _this ) {
+				_countries.push( _this.value );
+			} );
+		}
+
+		var _activities = [];
+		if ( document.querySelectorAll( '[name="activities[]"]:checked' ).length > 0 ) {
+			document.querySelectorAll( '[name="activities[]"]:checked' ).forEach( function( _this ) {
+				_activities.push( _this.value );
+			} );
+		}
+
+		var _partners = [];
+		if ( document.querySelectorAll( '[name="partners[]"]:checked' ).length > 0 ) {
+			document.querySelectorAll( '[name="partners[]"]:checked' ).forEach( function( _this ) {
+				_partners.push( _this.value );
+			} );
+		}
+
+		var _countries_length = _countries.length;
+		var _activities_length = _activities.length;
+		var _partners_length = _partners.length;
+
+		projectSites.forEach( function( project_site ) {
+			var _show_marker = true;
+			if ( _countries_length > 0 && -1 == _countries.indexOf( project_site['properties']['country'] ) ) {
+				_show_marker = false;
+			}
+
+			if ( _show_marker ) {
+				if ( _activities_length > 0 ) {
+					if ( _partners_length == 0 && Object.keys( project_site['properties']['activity'] ).length > 0 && _activities.filter(function(n) {return Object.keys( project_site['properties']['activity'] ).indexOf(n) !== -1;}).length == 0 ) {
+						_show_marker = false;
+					}
+					else if ( _partners_length > 0 && Object.keys( project_site['properties']['activity'] ).length > 0 && _activities.filter(function(n) {return Object.keys( project_site['properties']['activity'] ).indexOf(n) !== -1;}).length == 0 ) {
+						_show_marker = false;
+					}
+					else if ( _partners_length > 0 && Object.keys( project_site['properties']['activity'] ).length > 0 && _activities.filter(function(n) {return Object.keys( project_site['properties']['activity'] ).indexOf(n) !== -1;}).length > 0 ) {
+						_activity_marker = false;
+						_activities.forEach( function( _activity ) { if ( _partners.filter(function(n) { if ( project_site['properties']['activity'][_activity] != undefined ) { return project_site['properties']['activity'][_activity].indexOf(n) !== -1; } }).length > 0 ) {
+								_activity_marker = true;
+							}
+						} )
+						_show_marker = _activity_marker;
+					}
+				} else if ( _partners_length > 0 && _partners.filter(function(n) {return project_site['properties']['partner'].indexOf(n) !== -1;}).length == 0 ) {
+					_show_marker = false;
+				}
+			}
+
+			if ( _show_marker ) {
+
+                _marker_group.addLayer( L.marker(
+                    [project_site['geometry']['coordinates'][1], project_site['geometry']['coordinates'][0]],{
+                        icon: project_site['properties']['pin_icon']
+                    }
+                )
+                .bindPopup(
+                    '<img height="50px" src="' + project_site['properties']['boxcontent'] + '">', 
+                    {
+                        autoClose: false,
+                        closeOnClick: false
+                    } 
+                )
+                .bindTooltip(
+                    '<img height="50px" src="' + project_site['properties']['boxcontent'] + '">'
+                ) );
+			}
+		} );
+	}
+}
+
+draw_pins();
+
+function modify_filters(_this) {
+	if ( document.querySelectorAll( '[name="' + _this.value + '[]"]' ).length > 0 ) {
+		document.querySelectorAll( '[name="' + _this.value + '[]"]' ).forEach( function( _filter ) {
+			_filter.checked = _this.checked;
+		} );
+		draw_pins();
+	}
+}
+
+function modify_clear_filter( _this ) {
+	_name = _this.name.replace('[]', '');
+	if ( document.querySelectorAll( '[name="' + _name + '[]"]:checked' ).length == document.querySelectorAll( '[name="' + _name + '[]"]' ).length ) {
+		document.getElementById( 'all_' + _name ).checked = true;
+	} else {
+		document.getElementById( 'all_' + _name ).checked = false;
+	}
+}
+
 var baseLayers = {
     "Google Hybrid": googlehybrid,
     "Google Streets": googlestreets,
@@ -665,8 +728,67 @@ var baseLayers = {
 
 }
 
+L.Control.Custom = L.Control.Layers.extend({
+  onAdd: function () {
+		this._initLayout();
+		this._addFilters();
+		this._update();
+		return this._container;
+	},
+	_addFilters: function () {
+		var elements = this._container.getElementsByClassName('leaflet-control-layers-list');
+		var layer_container = L.DomUtil.create('div', 'leaflet-control-layers-container', elements[0]);
+
+		var overlays = {
+			"countries":  {
+				"sudan": "<img src='lib/cSU.png'/> Sudan",
+				"southsudan": "<img src='lib/cSSU.png'/> South Sudan",
+				"uganda": "<img src='lib/cUG.png'/> Uganda",
+				"kenya": "<img src='lib/cKE.png'/> Kenya",
+				"somalia": "<img src='lib/cSO.png'/> Somalia",
+				"ethiopia": "<img src='lib/cET.png'/> Ethiopia",
+				"djibouti": "<img src='lib/cDJ.png'/> Djibouti",
+			},
+			"activities": {
+				"health": "<img src='lib/aHealth.png'/> <span style='color: black'>Health</span>",
+				"wash": "<img src='lib/aWASH.png'/> <span style='color: black'>WASH</span>",
+				"gbv": "<img src='lib/aGBV.png'/> <span style='color: black'>GBV</span>",
+				"rcce": "<img src='lib/aRCCE.png'/> <span style='color: black'>RCCE</span>",
+				"ppe": "<img src='lib/aPPE.png'/> <span style='color: black'>PPE</span>",
+				"testing": "<img src='lib/aTesting.png'/> <span style='color: black'>Testing</span>",
+				"ambulances": "<img src='lib/aAmbulance.png'/> <span style='color: black'>Ambulances & Mobile Labs</span>",
+				"trade": "<img src='lib/aTrade.png'/> <span style='color: black'>Safe Trade Zones</span>",
+				"facilities": "<img src='lib/aFacilities.png'/> <span style='color: black'>Facilities</span>",
+			},
+			"partners": {
+				"UNOPS": "<img src='lib/bUNOPS.png'/> <span style='color: black'></span>",
+				"UNICEF": "<img src='lib/bUNICEF.png'/> <span style='color: black'></span>",
+				"IOM": "<img src='lib/bIOM.png'/> <span style='color: black'></span>",
+				"TMEA": "<img src='lib/bTMEA.png'/> <span style='color: black'></span>", 
+			}
+		};
+
+		Object.keys(overlays).forEach( function( _overlay_type ) {
+			var field = L.DomUtil.create('label', 'custom_checkbox', layer_container);
+			field.innerHTML = '<input type="checkbox" id="all_' + _overlay_type + '" value="' + _overlay_type + '" onClick="modify_filters(this);"> <b>All ' + _overlay_type + ' (Clear All)</b>';
+
+			Object.keys( overlays[ _overlay_type ] ).forEach( function( _overlay_key ) {
+				var field = L.DomUtil.create('label', 'custom_checkbox', layer_container);
+				field.innerHTML = '<input type="checkbox" name="' + _overlay_type + '[]" value="' + _overlay_key + '" onClick="draw_pins(); modify_clear_filter(this);"> ' + overlays[ _overlay_type ][ _overlay_key ];
+			} );
+		} );
+
+		L.DomUtil.create('div', 'leaflet-control-layers-separator', elements[0]);
+	}
+});
+
+var polygon_layers = {
+	"<b>Polygon</b>": polygon,
+	"<b>Polyygon</b>": polyygonData,
+}
+
 //Adding LayerControls to Map
-L.control.layers(baseLayers, overlays).addTo(mymap);
+new L.Control.Custom(baseLayers, polygon_layers).addTo(mymap);
 
 //var baseLayers = {
 //    "Mapbox": mapbox,
@@ -750,9 +872,39 @@ L.control.scale({
 
 
 // GenerateList Functions (LEFT COLUMN)
-
 function generateList() {
-    var ul = document.querySelector('.list');
+	var ul = document.querySelector('.list');
+
+	projectSites.forEach((site) => {
+		var li = document.createElement('li');
+        var div = document.createElement('div');
+        var a = document.createElement('a');
+        var p = document.createElement('p'); 
+        var flag = document.createElement('flag');
+
+        a.addEventListener('click', () => {
+            flyToSite(site);
+        })
+
+        div.classList.add('project-item');        
+
+        a.innerText = site.properties.name + ' ';
+        a.href = '#'
+        p.innerHTML = site.properties.info;
+        flag.innerHTML = site.properties.countryflag;
+
+        div.appendChild(flag);
+        div.appendChild(a);
+        div.appendChild(p);
+        
+        li.appendChild(div);
+        ul.appendChild(li);
+	});
+}
+generateList();
+/*
+function generateList() {
+    var ul =uerySelec,  documenttor('.list');
     projectSites.forEach((site) => {
         var li = document.createElement('li');
         var div = document.createElement('div');
@@ -781,7 +933,7 @@ function generateList() {
 }
 
 generateList();
-
+*/
 // Doing BindPopups
 
 function makePopupContent(site){
@@ -798,7 +950,7 @@ function onEachFeature(feature, layer) {
 
 
 // Putting in Sites
-
+/*
 var sitesLayer = L.geoJSON(projectSites, {
     onEachFeature: onEachFeature, 
     pointToLayer: function(feature, latlng) {
@@ -807,7 +959,7 @@ var sitesLayer = L.geoJSON(projectSites, {
 });
 
 sitesLayer.addTo(mymap);
-
+*/
 
 // Adding Flying Animation
 
@@ -816,18 +968,14 @@ function flyToSite (site) {
     var latt = site.geometry.coordinates[1];
     var lngg = site.geometry.coordinates[0];
     mymap.flyTo([latt, lngg], 8,{
-        
-duration: 4
-
+		duration: 4
     });
 
     setTimeout(() => {
-
         L.popup({autoClose: true, closeOnClick: false,})
         .setLatLng([latt, lngg])
         .setContent(makePopupContent(site))
         .openOn(mymap);
-
     }, 3000);
 
 }
