@@ -52,7 +52,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Gadarief, SU",
-            "info": "Gadarief Text",
+            "info": "Put # of Activities | Province | Else... | Put map on Project Website",
             "country": "sudan",
             "activity": {
                 "health" : ["IOM"],

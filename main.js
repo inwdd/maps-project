@@ -570,7 +570,8 @@ var emptycircle = L.circle(
 
 
 // Adding Polygon
-var polygon = L.polygon([[20.000066, 24.000162],[8.706755, 35.529665],[7.325975, 43.020540],[1.678135, 38.478610],], {
+var polygon = L.geoJSON(polyyygon, 
+        {
     color: 'white',
     opacity: 0.5,
     fillColor: 'blue',

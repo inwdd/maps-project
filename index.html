@@ -106,7 +106,7 @@
         main {
             width: 100%;
             height: 650px;
-            margin: 5rem auto;
+            
             display: flex;
         }
         .project-sites {
@@ -197,6 +197,7 @@
     <script src="./lib/leaflet/leaflet.browser.print.min.js"></script>
     <script src='./lib/leaflet/Leaflet.fullscreen.js'></script>
     <script src="data/polyygon.js"></script>
+    <script src="data/polyyygon.js"></script>
     <script src="data/circleee.geojson"></script>
     <script src="maindata.js"></script>
     <script src="https://cdn.finsweet.com/files/cmslibrary-v1.8.js"></script>
@@ -218,11 +219,26 @@
 
         //Leaflet Events LatLng Function
 /*
-mymap.on('mousemove', function (e) {
+mymap.on('click', function (e) {
     document.getElementsByClassName('coordinate')[0].innerHTML = 'lat: ' + e.latlng.lat, 'lng: ' + e.latlng.lng;
 })
-
 */
+
+                    //Seeing Coordinate
+/*
+mymap.on('click', function(e) {
+    console.log(e)
+})
+*/
+
+
+mymap.on('click', function(e){
+  var coord = e.latlng;
+  var latt = coord.lat;
+  var lngg = coord.lng;
+  console.log("[" + lngg + ", " + latt + "],");
+  });
+
 
     //Leaflet Measure
 
