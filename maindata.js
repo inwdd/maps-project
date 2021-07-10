@@ -52,7 +52,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Gadarief, SU",
-            "info": "Put # of Activities | Province | Else... | Put map on Project Website",
+            "info": "-Programme Area: Al-Qadarif <br> -16 Activities",
             "country": "sudan",
             "activity": {
                 "health" : ["IOM"],
@@ -75,7 +75,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Galabat, SU",
-            "info": "Info on Galabat. Shop No 7, Ground Floor, Chemox House, Hospital Lane, Barrack Rd, New Marine Lines, Mumbai, Maharashtra 400020, India",
+            "info": "-Programme Area: Galabat <br> -16 Activities",
             "country": "sudan",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -101,7 +101,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Hamdayet, SU",
-            "info": "Hamdayet Info goes here!",
+            "info": "-Programme Area: Kassala <br> -16 Activities",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -123,7 +123,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Jodah, SU",
-            "info": "Jodah Info. Lower Parel, Mumbai, Maharashtra 400013, India",
+            "info": "-Programme Area: Rabak <br> -X Activities",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -144,7 +144,7 @@ var projectSites = [
         },
         "properties": {
             "name": "White Nile, SU",
-            "info": "White Nile Info. Shop No 2, Ground floor Kanakia Zillion, LBS Marg, Kurla West, Mumbai, Maharashtra 400070, India",
+            "info": "-Programme Area: White Nile <br> -X Activities",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -164,7 +164,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Juba, SSU",
-            "info": "Juba Text goes here. No. 1-5, Building, Shop, No. 35, Evershine Millennium Paradise, Thakur Village, Kandivali East, Mumbai, Maharashtra 400101, India",
+            "info": "-Programme Area: Juba <br> -X Activities",
             "country": "southsudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -184,7 +184,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Maban, SSU",
-            "info": "Maban Text: Floor,Shop No. A,Municipal No. 26A & 27A-UA Jawahar Nagar,Kamla Nagar, near Malka Ganj, Chowk, Delhi 110007, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "southsudan",
             "activity": {
                 "health" : ["UNICEF"],
@@ -208,7 +208,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Nadapal, SSU",
-            "info": "SHOP NO. 10-11, COMMUNITY CENTRE, Garg Mall, Pocket 4, Sector 11, Rohini, New Delhi, Delhi 110020, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "southsudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -229,7 +229,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Nimule, SSU",
-            "info": "Nimule Text. Plot No. 7,LSC, Pankaj Plaza, near Prince Apartments, I.P.Extension, Patparganj, New Delhi, Delhi 110092, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "southsudan",
             "activity": {
                 "health" : ["IOM"],
@@ -256,7 +256,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Renk, SSU",
-            "info": "Renk - No.16, Ground Floor, Community Center Rd, Pocket A, Okhla Phase I, Okhla Industrial Area, New Delhi, Delhi 110020, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "southsudan",
             "activity": {
                 "health" : ["UNICEF"],
@@ -282,7 +282,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Adjumani, UG",
-            "info": "Adjumani Text Ground Floor, Shop no. 3 & 4, Dist, Chinar Park, Noapara, Sukanta Pally, Newtown, Kolkata, West Bengal 700157, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "uganda",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -308,7 +308,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Busia, UG",
-            "info": "Busia 3A, Humayun Place Near New Empire Cinema, Esplanade, New Market Area, Dharmatala, Kolkata, West Bengal 700087, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "uganda",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -330,7 +330,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Elegu, UG",
-            "info": "Elegu : Municipality, 352/1889, Dakshminayan Barasat Road Under Panhihati, Sodepur, Kolkata, West Bengal 700110, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "uganda",
             "activity": {
                 "health" : ["IOM"],
@@ -356,7 +356,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Malaba, UG",
-            "info": "Malaba Plot No. 99A, Block F, Nalini Ranjan Ave, New Alipore, Kolkata, West Bengal 700053, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "uganda",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -378,7 +378,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Daadab, KE",
-            "info": "Daadab Plot No. 50 & 51, Survey No. 301/2, 313/1, 304/2, Shop No. G - 7 & 8 Ground Floor, Opp. Gujarat High Court, S. G. Road Town Planning Scheme No. 28, Ahmedabad, Gujarat 380061, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -401,7 +401,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Diif, KE",
-            "info": "Diif (Kenya) Neelgagan Plaza, 1st And 2nd Floor Survey Number 2259 Commissioner Office, Dr Ambedkar Rd, Opposite Police, Jain Colony, Shahibag, Ahmedabad, Gujarat 380004, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -427,7 +427,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Garissa, KE",
-            "info": "Garissa A1 Amrapali Axiom, Sardar Patel Ring Rd, Ambli, Ahmedabad, Gujarat 380058, India",
+            "info": "-Programme Area: Garissa <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -447,7 +447,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Mandera, KE",
-            "info": "Mandera Shop Number A/03 & A/04, Ground Floor, Gujarat 382350, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -472,7 +472,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Marsabit, KE",
-            "info": "Marsabit Shop no 31/A, Ground floor, Shoppers Orbit, Next Mahalaxsmi Complex Near Visharantwadi Police Chowki, Dhanori Rd, Pune, Maharashtra 411015, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -497,7 +497,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Turkana, KE",
-            "info": "Turkana Shop No:4,5,14,15,16 & 17 Fortune Plaza, Hadapsar, Pune, Maharashtra 411028, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "kenya",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -518,7 +518,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Baidoa, SO",
-            "info": "Baidoa Plot No. 7, Dhanlaxmi Society, Opp. Jagtap Hospital, Pune, Maharashtra 411051, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "health" : ["IOM"],
@@ -540,7 +540,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Belet Hawa, SO",
-            "info": "Belet Hawa Bus Stop, Shop No. 6 & 7, opposite Deccan Gymkhana, Pune, Maharashtra 411004, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -559,7 +559,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Bosasso, SO",
-            "info": "Bosasso Cipla Foundation, Survey No. 116/1, Shop No. 2, Opposite, Warje, Pune, Maharashtra 411058, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -583,7 +583,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Dhoblei, SO",
-            "info": "Dhoblei Dukes Complex, 120, Bharathiar Salai, Melapudur, Cantonment, Tiruchirappalli, Tamil Nadu 620001, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "health" : ["IOM"],
@@ -608,7 +608,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Diif, SO",
-            "info": "Diif (Somalia) Vignesh Plaza, A-6, Ground Floor, Thillai Nagar Main Rd, Tiruchirappalli, Tamil Nadu 620018, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "health" : ["UNICEF"],
@@ -633,7 +633,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Mogadishu, SO",
-            "info": "Mogadishu Shop No. G5, G6 and G7, Ground Floor, Jaipur Rd, Hathi Bhata, Ajmer, Rajasthan 305001, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -653,7 +653,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Wajale, SO",
-            "info": "Wajale Domino'S Pizza Ground Floor Shop No 2 Shiv Mandir cinema, Fatehpur Rd, Sikar, Rajasthan 332001, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -675,7 +675,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Ali Sabieh, DJ",
-            "info": "Ali Sabieh Khasra No. 489 & 490, V Square Mall, Alwar Bypass Road, Sector-15, Bhiwadi, Rajasthan 301019, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "health" : ["IOM"],
@@ -700,7 +700,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Djibouti Port, DJ",
-            "info": "Djibouti Port A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "ppe" : ["TMEA"],
@@ -720,7 +720,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Dora, DJ",
-            "info": "Dora A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -745,7 +745,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Galafi, DJ",
-            "info": "Galafi A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "health" : ["IOM"],
@@ -771,7 +771,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Obock, DJ",
-            "info": "Obock A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -794,7 +794,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Obock (Merkazi), DJ",
-            "info": "Obock (Merkazi) A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -816,7 +816,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Gambela, ET",
-            "info": "Gambela Text A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "ethiopia",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -841,7 +841,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Hawli, ET",
-            "info": "Hawli Text A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "ethiopia",
             "activity": {
                 "health" : ["IOM"],
@@ -867,7 +867,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Metema, ET",
-            "info": "Metema A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "ethiopia",
             "activity": {
                 "health" : ["IOM"],
@@ -893,7 +893,7 @@ var projectSites = [
       },
       "properties": {
         "name": "Moyale, ET",
-        "info": "Moyale A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+        "info": "-Programme Area: Al-Qadarif <br> -X Activities",
         "country": "ethiopia",
         "activity": {
             "health" : ["IOM"],
@@ -918,7 +918,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Semera, ET",
-            "info": "Semera A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "ethiopia",
             "activity": {
                 "health" : ["UNICEF"],
@@ -942,10 +942,10 @@ var projectSites = [
       },
       "properties": {
             "name": "Tog Wajale, ET",
-            "info": "Tog Wajale A-47, Jhalawar Road, Indraprastha Industrial Area, Kota, Rajasthan 324005, India",
+            "info": "-Programme Area: Al-Qadarif <br> -X Activities",
             "country": "ethiopia",
             "activity": {
-                "health" : ["UNOPS", "IOM", "TMEA"],
+                "ppe" : ["UNOPS", "IOM", "TMEA"],
                 "trade" : ["TMEA"],  
             },
             "partner" : ["UNOPS", "IOM", "TMEA"],
