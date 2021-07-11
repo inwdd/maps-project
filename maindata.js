@@ -52,7 +52,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Gadarief, SU",
-            "info": "-Programme Area: Al-Qadarif <br> -16 Activities",
+            "info": "",
             "country": "sudan",
             "activity": {
                 "health" : ["IOM"],
@@ -75,7 +75,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Galabat, SU",
-            "info": "-Programme Area: Galabat <br> -16 Activities",
+            "info": "",
             "country": "sudan",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -101,7 +101,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Hamdayet, SU",
-            "info": "-Programme Area: Kassala <br> -16 Activities",
+            "info": "",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -123,7 +123,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Jodah, SU",
-            "info": "-Programme Area: Rabak <br> -X Activities",
+            "info": "",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -144,7 +144,7 @@ var projectSites = [
         },
         "properties": {
             "name": "White Nile, SU",
-            "info": "-Programme Area: White Nile <br> -X Activities",
+            "info": "",
             "country": "sudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -164,7 +164,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Juba, SSU",
-            "info": "-Programme Area: Juba <br> -X Activities",
+            "info": "",
             "country": "southsudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -184,7 +184,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Maban, SSU",
-            "info": "-Programme Area: Maban <br> -X Activities",
+            "info": "",
             "country": "southsudan",
             "activity": {
                 "health" : ["UNICEF"],
@@ -208,7 +208,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Nadapal, SSU",
-            "info": "-Programme Area: Nadapal <br> -X Activities",
+            "info": "",
             "country": "southsudan",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -229,7 +229,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Nimule, SSU",
-            "info": "-Programme Area: Nimule Town <br> -X Activities",
+            "info": "",
             "country": "southsudan",
             "activity": {
                 "health" : ["IOM"],
@@ -256,7 +256,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Renk, SSU",
-            "info": "-Programme Area: Renk <br> -X Activities",
+            "info": "",
             "country": "southsudan",
             "activity": {
                 "health" : ["UNICEF"],
@@ -282,7 +282,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Adjumani, UG",
-            "info": "-Programme Area: Adjumani <br> -X Activities",
+            "info": "",
             "country": "uganda",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -308,7 +308,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Busia, UG",
-            "info": "-Programme Area: Busia <br> -X Activities",
+            "info": "",
             "country": "uganda",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -330,7 +330,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Elegu, UG",
-            "info": "-Programme Area: Elegu <br> -X Activities",
+            "info": "",
             "country": "uganda",
             "activity": {
                 "health" : ["IOM"],
@@ -356,7 +356,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Malaba, UG",
-            "info": "-Programme Area: Malaba <br> -X Activities",
+            "info": "",
             "country": "uganda",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -378,7 +378,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Daadab, KE",
-            "info": "-Programme Area: Daadab <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -401,7 +401,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Diif, KE",
-            "info": "-Programme Area: Diif <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -427,7 +427,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Garissa, KE",
-            "info": "-Programme Area: Garissa <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -447,7 +447,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Mandera, KE",
-            "info": "-Programme Area: Mandera <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -472,7 +472,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Marsabit, KE",
-            "info": "-Programme Area: Marsabit/Moyale <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "health" : ["IOM"],
@@ -497,7 +497,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Turkana, KE",
-            "info": "-Programme Area: Lodwar <br> -X Activities",
+            "info": "",
             "country": "kenya",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -518,7 +518,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Baidoa, SO",
-            "info": "-Programme Area: Baidoa <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "health" : ["IOM"],
@@ -540,7 +540,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Belet Hawa, SO",
-            "info": "-Programme Area: Belet Hawa <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -559,7 +559,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Bosasso, SO",
-            "info": "-Programme Area: Bosasso <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -583,7 +583,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Dhoblei, SO",
-            "info": "-Programme Area: Dhoblei <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "health" : ["IOM"],
@@ -608,7 +608,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Diif, SO",
-            "info": "-Programme Area: Diif <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "health" : ["UNICEF"],
@@ -633,7 +633,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Mogadishu, SO",
-            "info": "-Programme Area: Mogadishu <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS"],
@@ -653,7 +653,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Wajale, SO",
-            "info": "-Programme Area: Wajale <br> -X Activities",
+            "info": "",
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS", "TMEA"],
@@ -675,7 +675,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Ali Sabieh, DJ",
-            "info": "-Programme Area: Ali Sabieh <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "health" : ["IOM"],
@@ -700,7 +700,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Djibouti Port, DJ",
-            "info": "-Programme Area: Djibouti <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "ppe" : ["TMEA"],
@@ -720,7 +720,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Dora, DJ",
-            "info": "-Programme Area: Dora <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -745,7 +745,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Galafi, DJ",
-            "info": "-Programme Area: Galafi <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "health" : ["IOM"],
@@ -771,7 +771,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Obock, DJ",
-            "info": "-Programme Area: Obock <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -794,7 +794,7 @@ var projectSites = [
         },
         "properties": {
             "name": "Obock (Merkazi), DJ",
-            "info": "-Programme Area: Obock <br> -X Activities",
+            "info": "",
             "country": "djibouti",
             "activity": {
                 "health" : ["UNICEF"],
@@ -816,7 +816,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Gambela, ET",
-            "info": "-Programme Area: Gambela <br> -X Activities",
+            "info": "",
             "country": "ethiopia",
             "activity": {
                 "health" : ["UNICEF", "IOM"],
@@ -841,7 +841,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Hawli, ET",
-            "info": "-Programme Area: Hawli <br> -X Activities",
+            "info": "",
             "country": "ethiopia",
             "activity": {
                 "health" : ["IOM"],
@@ -867,7 +867,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Metema, ET",
-            "info": "-Programme Area: Galabat <br> -X Activities",
+            "info": "",
             "country": "ethiopia",
             "activity": {
                 "health" : ["IOM"],
@@ -893,7 +893,7 @@ var projectSites = [
       },
       "properties": {
         "name": "Moyale, ET",
-        "info": "-Programme Area: Moyale <br> -X Activities",
+        "info": "",
         "country": "ethiopia",
         "activity": {
             "health" : ["IOM"],
@@ -918,7 +918,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Semera, ET",
-            "info": "-Programme Area: Semera <br> -X Activities",
+            "info": "",
             "country": "ethiopia",
             "activity": {
                 "health" : ["UNICEF"],
@@ -942,7 +942,7 @@ var projectSites = [
       },
       "properties": {
             "name": "Tog Wajale, ET",
-            "info": "-Programme Area: Wajale <br> -X Activities",
+            "info": "",
             "country": "ethiopia",
             "activity": {
                 "ppe" : ["UNOPS", "IOM", "TMEA"],

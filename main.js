@@ -725,7 +725,7 @@ function modify_clear_filter( _this ) {
 var baseLayers = {
     "Google Hybrid": googlehybrid,
     "Google Streets": googlestreets,
-    "Open Street Map": osm,
+    /*"Open Street Map": osm,*/
 
 }
 

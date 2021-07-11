@@ -18,7 +18,8 @@
     <style>
         #mapid{
         width: 100%;
-        height: 93vh;
+        height: 100vh;
+        /*Before height was 93vh*/
 
         /*
             height: 650px;
@@ -136,13 +137,13 @@
         }
 
         .project-sites ul.list {
-            padding: 0 1rem;
+            padding: 0 .5rem;
             list-style-type: none;
         }
         .project-sites .project-item {
-            margin: 1rem 0;
+            margin: .5rem 0;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            padding-bottom: 1rem;
+            padding-bottom: .5rem;
         }
         .project-sites li:last-child .project-item {
             border: none;
@@ -152,6 +153,7 @@
             font-size: 20px;
             color: #034EA2;
             font-weight: 700;
+            font-size: 16px;
         }
         .project-sites .project-item p {
             font-size: 14px;
@@ -178,16 +180,14 @@
 <body>
 
 <main>
-    <div class="project-sites">  
-        <div class="heading">
-            <h2>Our Programme Sites</h2>
-            
-        </div>
-        <ul class="list">
-
-        </ul>
     
-    </div>
+
+
+
+
+
+
+
     <div id="mapid">  
 
     </div>
@@ -246,6 +246,22 @@ mymap.on('click', function(e){
 
 
 
+
+                                /* Put this back after main to activate.
+
+<div class="project-sites">  
+        <div class="heading">
+            <h2>Our Programme Sites</h2>
+            
+        </div>
+        <ul class="list">
+
+        </ul>
+    
+    </div>
+
+                                   */
+
     </script>
 
 
@@ -253,3 +269,7 @@ mymap.on('click', function(e){
 
 </body>
 </html>
+
+
+
+
