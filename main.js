@@ -851,7 +851,7 @@ legend.onAdd = function (mymap) {
         labels = ["lib/xlegend.png"];
  {
         div.innerHTML +=
-            " <img src="+ labels +" height='74' width='350'>";
+            " <img src="+ labels +" height='74' width='400'>";
     }
 
     return div;
