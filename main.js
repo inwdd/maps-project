@@ -784,8 +784,8 @@ L.Control.Custom = L.Control.Layers.extend({
 });
 
 var polygon_layers = {
-	"<b>Polygon</b>": polygon,
-	"<b>Polyygon</b>": polyygonData,
+	"<b>Regional Coordination</b>": polygon,
+	"<b>Digital Solutions Implemented</b>": polyygonData,
 }
 
 //Adding LayerControls to Map
