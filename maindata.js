@@ -97,7 +97,7 @@ var projectSites = [
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [36.413976, 15.455983]
+          "coordinates": [36.59442901611329, 15.428491726463506]
         },
         "properties": {
             "name": "Hamdayet, SU",
@@ -544,6 +544,7 @@ var projectSites = [
             "country": "somalia",
             "activity": {
                 "ppe" : ["UNOPS"],
+                "ambulances" : ["UNOPS"],
             },
             "partner" : ["UNOPS"],
             "pin_icon": circleIcon,
@@ -954,5 +955,115 @@ var projectSites = [
             "countryflag": "<img height =12px src=lib/cETbig.png> ",
       }
     },
+
+
+    // Adding New Sites (9/24/21)
+
+
+    
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.761603, 13.525100]
+        },
+        "properties": {
+              "name": "Um Rakuba/Doka, SU",
+              "info": "",
+              "country": "sudan",
+              "activity": {
+                  "ppe" : ["IOM", "TMEA"],
+                  "wash" : ["IOM"],
+                  "trade" : ["TMEA"],  
+                  "facilities" : ["UNOPS"],
+
+              },
+              "partner" : ["UNOPS", "IOM", "TMEA"],
+              "pin_icon": RCIcon,
+              "boxcontent": "lib/zumrakuba.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.403997, 15.457629]
+        },
+        "properties": {
+              "name": "Kassala, SU",
+              "info": "",
+              "country": "sudan",
+              "activity": {
+                  "ppe" : ["UNOPS"],
+                  "ambulances" : ["UNOPS"],
+
+              },
+              "partner" : ["UNOPS"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zkassala.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [32.537811, 15.531667]
+        },
+        "properties": {
+              "name": "Khartoum, SU",
+              "info": "",
+              "country": "sudan",
+              "activity": {
+                  "ppe" : ["UNOPS"],
+
+              },
+              "partner" : ["UNOPS"],
+              "pin_icon": StarIcon,
+              "boxcontent": "lib/zkhartoum.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [31.282770, 6.837953]
+        },
+        "properties": {
+              "name": "Jonglei, SSU",
+              "info": "",
+              "country": "southsudan",
+              "activity": {
+                "wash" : ["UNICEF"],
+
+              },
+              "partner" : ["UNICEF"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zjonglei.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [32.718136, 9.889414]
+        },
+        "properties": {
+              "name": "Panyikang, SSU",
+              "info": "",
+              "country": "southsudan",
+              "activity": {
+                "wash" : ["UNICEF"],
+
+              },
+              "partner" : ["UNICEF"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zpanyikang.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
 
 ]
