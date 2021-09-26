@@ -568,7 +568,6 @@ var emptycircle = L.circle(
 
 //var X = L.marker([], {icon: circleIcon}).bindPopup('This is X').addTo(mymap);
 
-
 // Adding Polygon
 var polygon = L.geoJSON(polyyygon, 
         {
@@ -579,6 +578,9 @@ var polygon = L.geoJSON(polyyygon,
     dashArray: '5, 3, 2',
 });
 
+polygon.bindPopup("Regional Coordination", {maxWidth: 100});
+
+
 //Adding Polyygon
 var polyygonData = L.geoJSON(polyygon, 
         {
@@ -588,6 +590,9 @@ var polyygonData = L.geoJSON(polyygon,
         fillOpacity: 0.15,
         dashArray: '5, 3, 2',
     });
+
+polyygonData.bindPopup("Digital Solutions Implemented", {maxWidth: 100});
+
 
 // Creating Layer Controls
 /*
