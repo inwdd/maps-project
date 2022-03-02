@@ -2,7 +2,7 @@
 var circleIcon = L.icon (
     {   className: 'icon1',
         iconUrl : 'lib/icon_circle2.png',
-        shadowUrl: 'lib/icon_circle.png',
+        shadowUrl: 'lib/icon_circle1.png',
         iconSize : [20, 20],
         shadowSize: [20, 20],
         iconAnchor : [10, 9.5],
@@ -13,7 +13,7 @@ var circleIcon = L.icon (
 var MCIcon = L.icon (
     {
         iconUrl : 'lib/icon_MC2.png',
-        shadowUrl: 'lib/icon_MC.png',
+        shadowUrl: 'lib/icon_MC1.png',
         iconSize : [20, 20],
         shadowSize: [20, 20],
         iconAnchor : [10, 9.5],
@@ -24,7 +24,7 @@ var MCIcon = L.icon (
 var RCIcon = L.icon (
     {
         iconUrl : 'lib/icon_RC2.png',
-        shadowUrl: 'lib/icon_RC.png',
+        shadowUrl: 'lib/icon_RC1.png',
         iconSize : [20, 20],
         shadowSize: [20, 20],
         iconAnchor : [10, 9.5],
@@ -62,7 +62,7 @@ var projectSites = [
                 "ppe" : ["IOM"],
             },
             "partner" : ["IOM"],
-            "pin_icon": circleIcon,
+            "pin_icon": MCIcon,
             "boxcontent": "lib/zgadarief.png",
             "countryflag": "<img height=12px src=lib/cSUbig.png>  ",
         }
@@ -88,7 +88,7 @@ var projectSites = [
                 "trade": ["TMEA"],
             },
             "partner" : ["UNOPS", "UNICEF", "IOM", "TMEA"],
-            "pin_icon": MCIcon,
+            "pin_icon": circleIcon,
             "boxcontent": "lib/zgalabat.png",
             "countryflag": "<img height =12px src=lib/cSUbig.png> ",
         }
@@ -1032,7 +1032,7 @@ var projectSites = [
           "coordinates": [31.282770, 6.837953]
         },
         "properties": {
-              "name": "Jonglei, SSU",
+              "name": "Twic East, SSU",
               "info": "",
               "country": "southsudan",
               "activity": {
@@ -1041,7 +1041,7 @@ var projectSites = [
               },
               "partner" : ["UNICEF"],
               "pin_icon": circleIcon,
-              "boxcontent": "lib/zjonglei.png",
+              "boxcontent": "lib/ztwiceast.png",
               "countryflag": "<img height =12px src=lib/cSUbig.png> ",
         }
       },
@@ -1049,13 +1049,14 @@ var projectSites = [
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [32.718136, 9.889414]
+          "coordinates": [31.345092840492732, 9.49616940277823]
         },
         "properties": {
               "name": "Panyikang, SSU",
               "info": "",
               "country": "southsudan",
               "activity": {
+                "ppe" : ["UNICEF"],
                 "wash" : ["UNICEF"],
 
               },
@@ -1065,5 +1066,67 @@ var projectSites = [
               "countryflag": "<img height =12px src=lib/cSUbig.png> ",
         }
       },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [31.411205839658066, 8.130542621140659]
+        },
+        "properties": {
+              "name": "Ayod, SSU",
+              "info": "",
+              "country": "southsudan",
+              "activity": {
+                "ppe" : ["UNICEF"],
+                "wash" : ["UNICEF"],
 
+              },
+              "partner" : ["UNICEF"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zayod.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [33.123186932734306, 6.795918589213518]
+        },
+        "properties": {
+              "name": "Pibor, SSU",
+              "info": "",
+              "country": "southsudan",
+              "activity": {
+                "ppe" : ["UNICEF"],
+                "wash" : ["UNICEF"],
+
+              },
+              "partner" : ["UNICEF"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zpibor.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [31.565555321904938, 6.212709705767674]
+        },
+        "properties": {
+              "name": "Bor, SSU",
+              "info": "",
+              "country": "southsudan",
+              "activity": {
+                "ppe" : ["UNICEF"],
+                "wash" : ["UNICEF"],
+
+              },
+              "partner" : ["UNICEF"],
+              "pin_icon": circleIcon,
+              "boxcontent": "lib/zbor.png",
+              "countryflag": "<img height =12px src=lib/cSUbig.png> ",
+        }
+      },
 ]
