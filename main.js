@@ -763,6 +763,7 @@ L.Control.Custom = L.Control.Layers.extend({
 				"ppe": "<img src='lib/aPPE.png'/> <span style='color: black'>PPE</span>",
 				"testing": "<img src='lib/aTesting.png'/> <span style='color: black'>Testing</span>",
 				"ambulances": "<img src='lib/aAmbulance.png'/> <span style='color: black'>Ambulances & Mobile Labs</span>",
+                "pcr": "<img src='lib/aPCR.png'/> <span style='color: black'>PCR Machines</span>",
 				"trade": "<img src='lib/aTrade.png'/> <span style='color: black'>Safe Trade Zones</span>",
 				"facilities": "<img src='lib/aFacilities.png'/> <span style='color: black'>Facilities</span>",
 			},

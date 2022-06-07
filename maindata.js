@@ -60,8 +60,9 @@ var projectSites = [
                 "gbv" : ["IOM"],
                 "rcce" : ["IOM"],
                 "ppe" : ["IOM"],
+                "pcr" : ["UNOPS"],
             },
-            "partner" : ["IOM"],
+            "partner" : ["UNOPS", "IOM"],
             "pin_icon": MCIcon,
             "boxcontent": "lib/zgadarief.png",
             "countryflag": "<img height=12px src=lib/cSUbig.png>  ",
@@ -275,6 +276,46 @@ var projectSites = [
         }
     },
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.59171900698215, 4.7706705262597415]
+      },
+      "properties": {
+          "name": "Kapoeta, SSU",
+          "info": "",
+          "country": "southsudan",
+          "activity": {
+              "pcr" : ["UNOPS"],
+          },
+          "partner" : ["UNOPS"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zkapoeta.png",
+          "countryflag": "<img height =12px src=lib/cSSUbig.png> ",
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.399930180917135, 8.76698817845656]
+      },
+      "properties": {
+          "name": "Awail, SSU",
+          "info": "",
+          "country": "southsudan",
+          "activity": {
+              "pcr" : ["UNOPS"],
+          },
+          "partner" : ["UNOPS"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zawail.png",
+          "countryflag": "<img height =12px src=lib/cSSUbig.png> ",
+      }
+    },
+
+
+    {
         "type": "Feature",
         "geometry": {
           "type": "Point",
@@ -369,6 +410,63 @@ var projectSites = [
             "boxcontent": "lib/zmalaba.png",
             "countryflag": "<img height =12px src=lib/cUGbig.png> ",
         }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.136255169494042, 3.436767261023217]
+      },
+      "properties": {
+          "name": "Terogo, UG",
+          "info": "",
+          "country": "uganda",
+          "activity": {
+              "gbv" : ["UNICEF"],
+          },
+          "partner" : ["UNICEF"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zterogo.png",
+          "countryflag": "<img height =12px src=lib/cUGbig.png> ",
+      }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.907288869378746, 3.0302491419943443]
+    },
+    "properties": {
+        "name": "Arua, UG",
+        "info": "",
+        "country": "uganda",
+        "activity": {
+            "pcr" : ["UNOPS"],
+        },
+        "partner" : ["UNOPS"],
+        "pin_icon": circleIcon,
+        "boxcontent": "lib/zarua.png",
+        "countryflag": "<img height =12px src=lib/cUGbig.png> ",
+    }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.658070207356765, 2.5281666685238755]
+      },
+      "properties": {
+          "name": "Moroto, UG",
+          "info": "",
+          "country": "uganda",
+          "activity": {
+              "pcr" : ["UNOPS"],
+          },
+          "partner" : ["UNOPS"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zmoroto.png",
+          "countryflag": "<img height =12px src=lib/cUGbig.png> ",
+      }
     },
     {
         "type": "Feature",
@@ -481,6 +579,7 @@ var projectSites = [
                 "rcce" : ["IOM"],
                 "ppe" : ["UNOPS"],
                 "testing" : ["UNOPS"],
+                "pcr" : ["UNOPS"],
                 "trade" : ["TMEA"],
             },
             "partner" : ["UNOPS", "IOM", "TMEA"],
@@ -509,6 +608,26 @@ var projectSites = [
             "boxcontent": "lib/zturkana.png",
             "countryflag": "<img height =12px src=lib/cKEbig.png> ",
         }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.90190901239745, -2.270086211138179]
+      },
+      "properties": {
+          "name": "Lamu, KE",
+          "info": "",
+          "country": "kenya",
+          "activity": {
+              "pcr" : ["UNOPS"],
+            
+            },
+          "partner" : ["UNOPS"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zlamu.png",
+          "countryflag": "<img height =12px src=lib/cKEbig.png> ",
+      }
     },
     {
         "type": "Feature",
@@ -639,6 +758,7 @@ var projectSites = [
             "activity": {
                 "ppe" : ["UNOPS"],
                 "testing" : ["UNOPS"],
+                "pcr" : ["UNOPS"],
             },
             "partner" : ["UNOPS"],
             "pin_icon": StarIcon,
@@ -669,6 +789,26 @@ var projectSites = [
         }
     },
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.54263310693205, -0.3501307989089341]
+      },
+      "properties": {
+          "name": "Kismayo, SO",
+          "info": "",
+          "country": "somalia",
+          "activity": {
+              "ambulances" : ["UNOPS"],
+              "pcr" : ["UNOPS"],
+          },
+          "partner" : ["UNOPS"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zkismayo.png",
+          "countryflag": "<img height =12px src=lib/cSObig.png> ",
+      }
+    },    
+    {
         "type": "Feature",
         "geometry": {
           "type": "Point",
@@ -685,7 +825,8 @@ var projectSites = [
                 "rcce" : ["IOM", "UNICEF"],
                 "ppe" : ["UNOPS"],
                 "testing" : ["UNOPS"],
-                "ambulances" : ["UNOPS"]
+                "ambulances" : ["UNOPS"],
+                "pcr" : ["UNOPS"],
             },
             "partner" : ["UNOPS", "UNICEF", "IOM"],
             "pin_icon": circleIcon,
@@ -720,7 +861,7 @@ var projectSites = [
           "coordinates": [42.476356, 12.150212]
         },
         "properties": {
-            "name": "Dora, DJ",
+            "name": "Tajoura, DJ",
             "info": "",
             "country": "djibouti",
             "activity": {
@@ -731,10 +872,11 @@ var projectSites = [
                 "ppe" : ["UNOPS"],
                 "testing" : ["UNOPS"],
                 "ambulances" : ["UNOPS"],
+                "pcr" : ["UNOPS"],
             },
             "partner" : ["UNOPS", "UNICEF"],
             "pin_icon": circleIcon,
-            "boxcontent": "lib/zdora.png",
+            "boxcontent": "lib/ztajoura.png",
             "countryflag": "<img height =12px src=lib/cDJbig.png> ",
          }
     },
@@ -813,6 +955,26 @@ var projectSites = [
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [43.144806941322635, 11.571728057179866]
+      },
+      "properties": {
+          "name": "Djibouti City, DJ",
+          "info": "",
+          "country": "djibouti",
+          "activity": {
+              "ppe" : ["TMEA",],
+              "trade" : ["TMEA"],  
+          },
+          "partner" : ["TMEA"],
+          "pin_icon": circleIcon,
+          "boxcontent": "lib/zdjibouticity.png",
+          "countryflag": "<img height =12px src=lib/cDJbig.png> ",
+      }
+   },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [34.591613, 8.248250]
       },
       "properties": {
@@ -878,11 +1040,12 @@ var projectSites = [
                 "ppe" : ["UNOPS", "IOM", "TMEA"],
                 "testing" : ["UNOPS"],
                 "ambulances" : ["UNOPS"],
+                "pcr" : ["UNOPS"],
                 "trade" : ["TMEA"],  
             },
             "partner" : ["UNOPS", "IOM", "TMEA"],
             "pin_icon": circleIcon,
-            "boxcontent": "lib/zmetema.png",
+            "boxcontent": "lib/zmetema2.png",
             "countryflag": "<img height =12px src=lib/cETbig.png> ",
       }
     },
@@ -955,6 +1118,25 @@ var projectSites = [
             "countryflag": "<img height =12px src=lib/cETbig.png> ",
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.10024019419866, 4.894685917282862]
+      },
+      "properties": {
+            "name": "Yabelo, ET",
+            "info": "",
+            "country": "ethiopia",
+            "activity": {
+                "pcr" : ["UNOPS"],
+            },
+            "partner" : ["UNOPS"],
+            "pin_icon": circleIcon,
+            "boxcontent": "lib/zyabelo.png",
+            "countryflag": "<img height =12px src=lib/cETbig.png> ",
+      }
+    },
 
 
     // Adding New Sites (9/24/21)
@@ -997,6 +1179,7 @@ var projectSites = [
               "activity": {
                   "ppe" : ["UNOPS"],
                   "ambulances" : ["UNOPS"],
+                  "pcr" : ["UNOPS"],
 
               },
               "partner" : ["UNOPS"],
